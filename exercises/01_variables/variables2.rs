@@ -1,6 +1,6 @@
 fn main() {
     // TODO: Change the line below to fix the compiler error.
-    let x:u8=10;
+    let x:u8=45;
 
     if x == 10 {
         println!("x is ten!");
