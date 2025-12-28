@@ -2,7 +2,7 @@
 fn square(num: i32) -> i32 {
    num * num
 }
-//  removed the ; becouse ; is requirde return 
+//  removed the ; becouse ; is reqired for  return 
 
 
 fn main() {
