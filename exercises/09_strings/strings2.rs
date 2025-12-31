@@ -6,7 +6,8 @@ fn is_a_color_word(attempt: &str) -> bool {
 fn main() {
     let word = String::from("green"); // Don't change this line.
 
-    if is_a_color_word(word) {
+    if is_a_color_word(&word) {
+        //  taking reference of word to pass to function
         println!("That is a color word I know!");
     } else {
         println!("That is not a color word I know.");
