@@ -4,8 +4,8 @@
 
 fn average(values: &[f64]) -> f64 {
     let total = values.iter().sum::<f64>();
-    // TODO: Make a conversion before dividing.
-    total / values.len()
+    // ✅ Cast usize to f64 before dividing
+    total / values.len() as f64
 }
 
 fn main() {
@@ -22,3 +22,4 @@ mod tests {
         assert_eq!(average(&[3.5, 0.3, 13.0, 11.7]), 7.125);
     }
 }
+
